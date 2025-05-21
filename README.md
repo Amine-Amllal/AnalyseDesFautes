@@ -10,10 +10,6 @@ This repository contains:
  * the code for the VARS, a new multi-camera video recognition system for classifying the type of fouls and their severity. 
 * the VARS interface, which shows the ground truth of the action and the top 2 predictions for the foul classification task, and the offence and severity classification task with the corresponding confidence scores.
 
-For more information
-* Paper: [VARS: Video Assistant Referee System for Automated Soccer Decision Making from Multiple Views](https://arxiv.org/abs/2304.04617).
-
-
 ![My Image](images/abstract_image.jpg)
 ## SoccerNet-MVFoul
 
@@ -69,7 +65,6 @@ Unzip the dataset and to start the training, run the following command:
 ```
 python main.py --path "path/to/dataset" 
 ```
-You can download our pre-trained weights to recreate the baseline: https://drive.google.com/drive/folders/1N0Lv-lcpW8w34_iySc7pnlQ6eFMSDvXn?usp=share_link
 
 Run the following command:
 
@@ -119,27 +114,3 @@ Example 2:
 
 ## License
 See the [License](LICENSE) file for details.
-
-## Youtube video
-
-Check out our video tutorial on the MV-Foul challenge!
-
-[![IMAGE ALT TEXT HERE](images/Thumbnail.jpg)](https://youtu.be/Ir-6D3j_lkA?si=Uwni8jngdsDQrf6w)
-
-## Citation
-
-For further information check out our [paper](https://arxiv.org/abs/2304.04617) and supplementary material.
-
-Please cite our work if you use our dataset or code:
-```
-@InProceedings{Held2023VARS,
-    author    = {Held, Jan and Cioppa, Anthony and Giancola, Silvio and Hamdi, Abdullah and Ghanem, Bernard and Van Droogenbroeck, Marc},
-    title     = {{VARS}: Video Assistant Referee System for Automated Soccer Decision Making From Multiple Views},
-    booktitle = cvsports,
-    month     = Jun,
-    year      = {2023},
-	publisher = ieee,
-	address = seattle,
-    pages     = {5085-5096}
-}
-```

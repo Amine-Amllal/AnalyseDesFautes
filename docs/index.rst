@@ -1,17 +1,27 @@
-.. Analyse Des Fautes documentation master file, created by
-   sphinx-quickstart on Wed May 21 09:39:16 2025.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+Video Assistant Referee System (VARS)
+====================================
 
-Analyse Des Fautes documentation
-================================
+Welcome to the documentation for the Video Assistant Referee System (VARS), an automated system for soccer foul detection using multi-view video data.
 
-Add your content using ``reStructuredText`` syntax. See the
-`reStructuredText <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_
-documentation for details.
-
+Contents:
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
+   installation
+   dataset
+   usage
+   interface
+   citation
+
+Getting Started
+---------------
+
+This documentation covers:
+
+- Overview of the VARS project
+- Dataset description and downloading instructions
+- Installation and setup
+- How to run the VARS model and interface
+- Citation information for academic use

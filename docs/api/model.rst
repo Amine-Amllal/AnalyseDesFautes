@@ -8,10 +8,6 @@ MVNetwork Class
 
 The main neural network class that implements the complete VARS architecture.
 
-.. autoclass:: model.MVNetwork
-   :members:
-   :inherited-members:
-
 Class Definition
 ~~~~~~~~~~~~~~~
 

@@ -1,3 +1,14 @@
-sphinx
-sphinx-rtd-theme
-myst-parser
+# Sphinx and theme
+sphinx>=4.0
+sphinx-rtd-theme>=1.0
+myst-parser>=0.17
+
+# Additional Sphinx extensions  
+sphinx-autodoc-typehints
+sphinx-copybutton
+
+# For code highlighting and formatting
+Pygments>=2.10
+
+# For math rendering
+sphinx[math]

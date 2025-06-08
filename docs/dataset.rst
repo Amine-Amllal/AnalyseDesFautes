@@ -32,7 +32,7 @@ Dataset Structure
 
 Each action in the dataset consists of:
 
-* **Multiple camera views** (minimum 2, up to 5 views per action)
+* **Multiple camera views** (minimum 2, up to 4 views per action)
 * **Live action footage** from the main broadcast cameras
 * **Replay footage** from alternative angles
 * **Professional annotations** for 10 different foul properties
@@ -134,19 +134,35 @@ Annotations are stored in JSON format:
 .. code-block:: json
 
    {
+       "Set": "train",
+       "Number of actions": 2916,
        "Actions": {
            "0": {
-               "Action class": "High leg",
-               "Offence": "Offence", 
-               "Severity": "3.0",
-               "Body parts": "Foot",
-               "Contact": "Yes",
-               "Impact": "High",
-               "Referee decision": "Red card",
+               "UrlLocal": "england_epl\\2014-2015\\2015-02-21 - 18-00 Chelsea 1 - 1 Burnley",
+               "Offence": "Offence",
+               "Contact": "With contact",
+               "Bodypart": "Upper body",
+               "Upper body part": "Use of shoulder",
+               "Action class": "Challenge",
+               "Severity": "1.0",
+               "Multiple fouls": "",
+               "Try to play": "",
+               "Touch ball": "",
+               "Handball": "No handball",
+               "Handball offence": "",
                "Clips": [
-                   "action_0/clip_0.mp4",
-                   "action_0/clip_1.mp4",
-                   "action_0/clip_2.mp4"
+                   {
+                       "Url": "Dataset/Train/action_0/clip_0",
+                       "Camera type": "Main camera center",
+                       "Timestamp": 1730826,
+                       "Replay speed": 1.0
+                   },
+                   {
+                       "Url": "Dataset/Train/action_0/clip_1",
+                       "Camera type": "Close-up player or field referee",
+                       "Timestamp": 1744173,
+                       "Replay speed": 1.8
+                   }
                ]
            }
        }

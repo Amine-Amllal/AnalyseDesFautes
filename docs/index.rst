@@ -24,6 +24,8 @@ Contents:
 
    installation
    dataset
+   model_training
+   evaluation_metrics
    usage
    interface
    citation

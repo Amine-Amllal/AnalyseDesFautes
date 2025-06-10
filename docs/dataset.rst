@@ -118,13 +118,15 @@ Additional Annotation Properties
 
 The dataset also includes annotations for:
 
-* **Body parts involved**: Which body parts made contact
-* **Contact intensity**: Level of physical contact
-* **Consequence**: Impact on the opponent
-* **Context**: Situational factors (ball possession, etc.)
-* **Referee decision**: Actual referee decision made
-* **Camera quality**: Video quality assessment
-* **Visibility**: How clearly the incident is visible
+* **UrlLocal**: Local path to the match video
+* **Contact**: Contact type (With contact / Without contact)
+* **Bodypart**: Body part involved (Upper body / Under body)
+* **Upper body part**: Specific upper body part if applicable (Use of shoulder, Use of arms, etc.)
+* **Multiple fouls**: Whether multiple fouls occurred
+* **Try to play**: Whether the player tried to play the ball (Yes/No)
+* **Touch ball**: Whether the ball was touched (Yes/No/Maybe)
+* **Handball**: Handball status (No handball / Handball)
+* **Handball offence**: Handball offence classification if applicable
 
 Annotation Format
 ----------------
